@@ -1,3 +1,1 @@
 # Blog
-
-My personal blog
