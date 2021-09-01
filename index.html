@@ -99,11 +99,12 @@
 
 		<div class="tab-pane fade" id="about" role="tabpanel">
 		  <div class="row col mx-3 my-3">
-			<div class="col-sm-3 col-md-6 col-lg-12">
-			  
-			  
+			
 			  <div class="card mb-3">
-				<div class="card-header mt-1" data-bs-toggle="collapse" href="#PrivacyPolicy">Política de Privacidade</div>
+				<div class="card-header mt-1 d-flex" data-bs-toggle="collapse" href="#PrivacyPolicy">
+				  <span>Política de Privacidade</span>
+				  <i class="bi bi-eye-slash ms-auto" id="PrivacyPolicyView"></i>
+				</div>
 				<div class="card-body collapse" id="PrivacyPolicy">
 				  <p class="card-text">
 					A sua privacidade é importante para nós. O Pix Reward respeitar a sua privacidade em relação a qualquer informação sua que possamos coletar no aplicativo.<br/><br/>
@@ -115,23 +116,12 @@
 				  </p>
 				</div>
 			  </div>
-			  
+
 			  <div class="card mb-3">
-				<div class="card-header mt-1" data-bs-toggle="collapse" href="#UserCommitment">Compromisso do Usuário</div>
-				<div class="card-body collapse" id="UserCommitment">
-				  <p class="card-text">O usuário se compromete a fazer uso adequado do Pix Reward.</p>
-				  <ul>
-					<li>Não causar danos ao sistema lógico do aplicativo.</li>
-				  </ul>
-				  
-				  <p class="card-text">Se houver alguma alteração no sistema lógico do aplicativo, o usuário terá sua conta exclúida e seus ganhos serão negados.</p>
-				  
-				  
+				<div class="card-header mt-1 d-flex" data-bs-toggle="collapse" href="#CollectedData">
+				  <span>Dados Coletados</span>
+				  <i class="bi bi-eye-slash ms-auto" id="CollectedDataView"></i>
 				</div>
-			  </div>
-			  
-			  <div class="card mb-3">
-				<div class="card-header mt-1" data-bs-toggle="collapse" href="#CollectedData">Dados Coletados</div>
 				<div class="card-body collapse" id="CollectedData">
 				  <p class="card-text">Os dados coletados a seguir e utilizado para confirmação de pagamento do usuário.</p>
 				  <ul>
@@ -139,13 +129,30 @@
 					<li>E-mail</li>
 					<li>Chave Pix</li>
 				  </ul>
-				  
+
 				  <p>Se não for possível efetuar a transferência para o usuário com a chave Pix fornecida, entraremos em contato com o usuário através do e-mail utilizado para cadastro.</p>
 				</div>
 			  </div>
-			  
+
 			  <div class="card mb-3">
-				<div class="card-header mt-1" data-bs-toggle="collapse" href="#Contacts">Contatos</div>
+				<div class="card-header mt-1 d-flex" data-bs-toggle="collapse" href="#UserCommitment">
+				  <span>Compromisso do Usuário</span>
+				  <i class="bi bi-eye-slash ms-auto" id="UserCommitmentView"></i>
+				</div>
+				<div class="card-body collapse" id="UserCommitment">
+				  <p class="card-text">O usuário se compromete a fazer uso adequado do Pix Reward.</p>
+				  <ul>
+					<li>Não causar danos ao sistema lógico do aplicativo.</li>
+				  </ul>
+				  <p class="card-text">Se houver alguma alteração no sistema lógico do aplicativo, o usuário terá sua conta exclúida e seus ganhos serão negados.</p>
+				</div>
+			  </div>
+
+			  <div class="card mb-3">
+				<div class="card-header mt-1 d-flex" data-bs-toggle="collapse" href="#Contacts">
+				  <span>Contatos</span>
+				  <i class="bi bi-eye-slash ms-auto" id="ContactsView"></i>
+				</div>
 				<div class="card-body collapse" id="Contacts">
 				  <p class="card-text">Se você tiver alguma dúvida sobre como lidamos com seus dados e informações pessoais, entre em contacto connosco.</p>
 				  <ul class="list-unstyled ms-3">
@@ -154,16 +161,7 @@
 				  </ul>
 				</div>
 			  </div>
-			  
-			  
-			  
-			  
-			  
-			  
-			</div>
 		  </div>
-
-
 
 		</div>
 	  </div>

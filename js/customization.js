@@ -96,3 +96,18 @@ $(window).on("popstate", function() {
     $("a[href='" + anchor + "']").tab("show");
 	$("a[data-bs-target='"+location.hash+"']").addClass('.active');
 });
+
+
+
+$('[href$="PrivacyPolicy"]').on("click", function () {
+	$("#PrivacyPolicyView").toggleClass("bi-eye-slash bi-eye");
+});
+$('[href$="CollectedData"]').on("click", function () {
+	$("#CollectedDataView").toggleClass("bi-eye-slash bi-eye");
+});
+$('[href$="UserCommitment"]').on("click", function () {
+	$("#UserCommitmentView").toggleClass("bi-eye-slash bi-eye");
+});
+$('[href$="Contacts"]').on("click", function () {
+	$("#ContactsView").toggleClass("bi-eye-slash bi-eye");
+});
