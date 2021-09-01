@@ -202,7 +202,9 @@ body {
   width: 40%;
 }
 
-
+.contacts-link {
+  color: #ffffff;
+}
 
 .container {
   max-width: 960px;
